@@ -6,6 +6,20 @@ export const metadata: Metadata = {
   openGraph: {
     title: 'Ashot Turns 40 — Save the Date',
     description: 'July 4th, 2026 • Yerevan, Armenia',
+    images: [
+      {
+        url: 'https://ashot.app/preview.gif',
+        width: 600,
+        height: 315,
+        type: 'image/gif',
+      },
+    ],
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'Ashot Turns 40 — Save the Date',
+    description: 'July 4th, 2026 • Yerevan, Armenia',
+    images: ['https://ashot.app/preview.gif'],
   },
 };
 
